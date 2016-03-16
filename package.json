@@ -1,0 +1,9 @@
+{
+  "name": "Kitchen Inventory",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Kann Chea",
+  "dependencies": {
+       
+  }
+}
