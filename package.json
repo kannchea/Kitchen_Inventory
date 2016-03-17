@@ -1,11 +1,11 @@
 {
-  "name": "Kitchen Inventory",
+  "name": "Kitchen-Inventory",
   "version": "1.0.0",
   "main": "app.js",
   "author": "Kann Chea",
   "dependencies": {
     "express": "3.3.6",
-    "express-handlebars": "3.3.6"
+    "express-handlebars": "*"
   },
   "engines": {
     "node": "5.0.0"
