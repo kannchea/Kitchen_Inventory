@@ -8,6 +8,6 @@
     "express-handlebars": "^2.0.1"
   },
   "engine": {
-    "node": "4.1.0"
+    "node": "5.0.0"
   }
 }
