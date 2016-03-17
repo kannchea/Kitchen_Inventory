@@ -4,8 +4,8 @@
   "main": "app.js",
   "author": "Kann Chea",
   "dependencies": {
-    "express": "^4.13.4",
-    "express-handlebars": "^2.0.1"
+    "express": "3.3.6",
+    "express-handlebars": "3.3.6"
   },
   "engines": {
     "node": "5.0.0"
