@@ -3,11 +3,40 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredienita - Kitchen Inventory</title>
 	<link rel="stylesheet" type="text/css" href="/css/index.css">
 </head>
 <body>
-  <div id="content">	
-  	<h1>Kitchen Inventory</h1>
-  </div>
+    
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="wrap">
+                <p class="form-title">
+                    Sign In</p>
+                <form class="login">
+                    <input type="text" placeholder="Username" />
+                    <input type="password" placeholder="Password" />
+                    <input id="submit" type="submit" value="Sign In" class="btn btn-success btn-sm" />
+                    <div id="login-help">
+					<a href="#">Register</a> &nbsp;-&nbsp; <a href="#">Forgot Password</a>
+				</div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<script>
+     $(document).ready(function () {
+    $('.forgot-pass').click(function(event) {
+      $(".pr-wrap").toggleClass("show-pass-reset");
+    }); 
+    
+    $('.pass-reset-submit').click(function(event) {
+      $(".pr-wrap").removeClass("show-pass-reset");
+    }); 
+});
+</script>
 </body>
 </html>
