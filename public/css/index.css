@@ -37,7 +37,7 @@ form
 
 form.login input[type="text"], form.login input[type="password"]
 {
-    width: 99.5%;
+    width: 100%;
     margin: 0;
     padding-top: 10px;
     background: 0;
@@ -52,6 +52,8 @@ form.login input[type="text"], form.login input[type="password"]
     margin-bottom: 5px;
     color: #FFFFFF;
     outline: 0;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
 }
 
 form.login input[type="submit"]
@@ -69,6 +71,8 @@ form.login input[type="submit"]
     background: #FFFFFF;
     border-radius: 0;
     -webkit-appearance: none;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
 }
 
 form.login input[type="submit"]:hover
