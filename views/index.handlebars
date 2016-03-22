@@ -17,7 +17,7 @@
                 <form class="login">
                     <input type="text" placeholder="Username" />
                     <input type="password" placeholder="Password" />
-                    <input id="submit" type="submit" value="Sign In" class="btn btn-success btn-sm" />
+                    <input id="submit" type="submit" value="Sign In"/>
                     <div id="login-help">
 					<a href="#">Register</a> &nbsp;-&nbsp; <a href="#">Forgot Password</a>
 				</div>
@@ -27,16 +27,6 @@
     </div>
 </div>
     
-<script>
-     $(document).ready(function () {
-    $('.forgot-pass').click(function(event) {
-      $(".pr-wrap").toggleClass("show-pass-reset");
-    }); 
-    
-    $('.pass-reset-submit').click(function(event) {
-      $(".pr-wrap").removeClass("show-pass-reset");
-    }); 
-});
 </script>
 </body>
 </html>
